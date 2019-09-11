@@ -1,0 +1,192 @@
+/**************************************tags*********************************/
+h1,h2,h3,h4,h5,h6{
+  font-family: Montserrat;
+}
+h1 {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+/* Download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/***********************************classes********************************/
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.fas-feature {
+  color: #ef8172;
+  font-size: 60px;
+  float: left;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.fas-feature:hover {
+  color: #ff4c68;
+}
+
+.feature-head {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.feature-text {
+  color: #8f8f8f;
+  padding: 5%;
+}
+
+/****************************************ids*******************************/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* *****************************Testimonials *********************************/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* *******************************Pricing *********************************/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.btn1 {
+  position: relative;
+  top: 41px;
+}
+
+/* ****************************call to action*************************** */
+#cta {
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  text-align: center;
+  padding: 7% 30%;
+  color: white;
+  line-height: 1.5;
+}
+
+/* **********************************footer ********************************/
+#footer {
+  text-align: center;
+  color: #8f8f8f;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.logo1 {
+  margin-right: .5rem;
+}
+
+.soc-logo {
+  margin-right: 1rem;
+}
+
+.soc-logo:hover {
+  color: black;
+}
+
+/* **********************************media******************************** */
+@media (max-width: 1028px) {
+  .btn1 {
+    position: static;
+    top: auto;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
